@@ -18,12 +18,12 @@ App code (github) : https://github.com/kishan-beladiya/flicker_hackathon_server_
 
 URL : https://flipr-kishan.herokuapp.com/
 
-POST register : /register
-POST login : /login
-POST add task : /task
-GET get task : /task/todat/{username}
+1. POST register : /register
+2. POST login : /login
+3. POST add task : /task
+4. ET get task : /task/todat/{username}
                /task/yesterday/{username}
 
-Block user : /status/block/{username}
+5. Block user : /status/block/{username}
              /status/unblock/{username}
              
