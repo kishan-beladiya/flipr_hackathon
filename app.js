@@ -39,6 +39,6 @@ app.use((req,res,next)=>{
   });
 });
 
-app.listen(process.env.port || port, hostname,() => {
+app.listen(process.env.PORT || port,() => {
   console.log(`TrackIt app listening on port ${port}`)
 })
